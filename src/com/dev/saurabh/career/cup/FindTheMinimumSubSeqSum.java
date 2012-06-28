@@ -86,7 +86,7 @@ public class FindTheMinimumSubSeqSum {
     }
 
     private static int getMinSubSeqSum(int[] input) {
-        int result = Integer.MAX_VALUE;
+        int result;
         int minimum = Integer.MAX_VALUE;
         int overAllMin = 0;
         int minTillNow = 0;
